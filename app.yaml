@@ -1,0 +1,13 @@
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: root_externo
+  CLOUD_SQL_PASSWORD: 'pass'
+  CLOUD_SQL_DATABASE_NAME: cloud_sql
+  CLOUD_SQL_CONNECTION_NAME: projectid:southamerica-east1:mysql
+  CLOUD_SQL_CA: 'ssl/client-ca.pem'
+  CLOUD_SQL_KEY: 'ssl/client-key.pem'
+  CLOUD_SQL_CERT:  'ssl/client-cert.pem'
+  ACCESS_TOKEN: 'token'
+  KEY_SHEETS: 'ssl/key_service.json'
+  PLAN_ID: '1RfTkrvZaSaTWJruXAoJ0nEodVOVVJFRvfrXcb7TxzUQ'
